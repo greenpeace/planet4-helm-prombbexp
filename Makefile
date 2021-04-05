@@ -82,5 +82,5 @@ uninstall:
 # Completely remove helm install, config data, persistent volumes etc.
 # Before running this ensure you have deleted any other related config
 destroy:
-	@echo -n "You are about to ** DELETE DATA **, enter y if your sure ? [y/N] " && read ans && [ $${ans:-N} = y ]
+	@echo -n "You might be about to ** DELETE DATA **, enter y if your sure ? [y/N] " && read ans && [ $${ans:-N} = y ]
 	helm3 uninstall $(RELEASE) -n $(NAMESPACE)
