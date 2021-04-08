@@ -26,6 +26,8 @@ This repository is deployed via [CircleCI](https://circleci.com/gh/greenpeace/pl
  - Approval and merge deploys to production.
 
 ### Usage
+ - To generate endpoint yaml files run:
+    `generate_p4_endpoints_file.sh` -  Enter env, get env file, copy to yaml </em>
  - To access probe results visit:
      [Grafana](https://grafana.greenpeace.org/d/EmUBHUFGk/p4-probe-monitoring?orgId=1&var-target=https:%2F%2Fwww-dev.greenpeace.org%2Fjctest%2F&var-http_job=promblackboxex-prometheus-blackbox-exporter&var-icmp_job=website-monitoring-icmp&from=1617594131541&to=1617595931546)
  - Clone the repo to access makefile commands via cli that are not executed via CircleCI

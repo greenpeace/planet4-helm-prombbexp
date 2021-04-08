@@ -1,15 +1,2 @@
 ---
-serviceMonitor:
-  defaults:
-    additionalMetricsRelabels: {}
-    interval: 30s
-    labels:
-      release: prometheus-stack
-    module: http_2xx
-    scrapeTimeout: 30s
-  enabled: true
-  targets:
-    - name: develop-test-pandora
-      url: https://www-dev.greenpeace.org/test-pandora/
-    - name: develop-test-phoebe
-      url: https://www-dev.greenpeace.org/test-phoebe/
+---

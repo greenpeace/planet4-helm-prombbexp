@@ -1,1 +1,175 @@
 ---
+serviceMonitor:
+  defaults:
+    additionalMetricsRelabels: {}
+    interval: 30s
+    labels:
+      release: prometheus-stack
+    module: http_2xx
+    scrapeTimeout: 30s
+  enabled: true
+  targets:
+    - name: develop-africa
+      url: https://www-dev.greenpeace.org/africa
+    - name: develop-argentina
+      url: https://www-dev.greenpeace.org/argentina
+    - name: develop-belgium
+      url: https://www-dev.greenpeace.org/belgium
+    - name: develop-brasil
+      url: https://www-dev.greenpeace.org/brasil
+    - name: develop-bulgaria
+      url: https://www-dev.greenpeace.org/bulgaria
+    - name: develop-canada
+      url: https://www-dev.greenpeace.org/canada
+    - name: develop-chile
+      url: https://www-dev.greenpeace.org/chile
+    - name: develop-cidev
+      url: https://www-dev.greenpeace.org/cidev
+    - name: develop-colombia
+      url: https://www-dev.greenpeace.org/colombia
+    - name: develop-cool-technologies
+      url: https://dev.cooltech.p4.greenpeace.org/
+    - name: develop-croatia
+      url: https://www-dev.greenpeace.org/croatia
+    - name: develop-czech-republic
+      url: https://www-dev.greenpeace.org/czech
+    - name: develop-defaultcontent
+      url: https://www-dev.greenpeace.org/defaultcontent
+    - name: develop-denmark
+      url: https://www-dev.greenpeace.org/denmark
+    - name: develop-dmptest
+      url: https://www-dev.greenpeace.org/dmptest
+    - name: develop-eastasia
+      url: https://www-dev.greenpeace.org/eastasia
+    - name: develop-eu-unit
+      url: https://www-dev.greenpeace.org/eu-unit
+    - name: develop-finland
+      url: https://www-dev.greenpeace.org/finland
+    - name: develop-flibble
+      url: https://www-dev.greenpeace.org/flibble
+    - name: develop-greece
+      url: https://www-dev.greenpeace.org/greece
+    - name: develop-greenland
+      url: https://www-dev.greenpeace.org/greenland
+    - name: develop-gutenberg
+      url: https://www-dev.greenpeace.org/gutenberg
+    - name: develop-handbook
+      url: https://www-dev.greenpeace.org/handbook
+    - name: develop-hongkong
+      url: https://www-dev.greenpeace.org/hongkong
+    - name: develop-hungary
+      url: https://www-dev.greenpeace.org/hungary
+    - name: develop-india
+      url: https://www-dev.greenpeace.org/india
+    - name: develop-indonesia
+      url: https://www-dev.greenpeace.org/indonesia
+    - name: develop-international
+      url: https://www-dev.greenpeace.org/international
+    - name: develop-israel
+      url: https://www-dev.greenpeace.org/israel
+    - name: develop-italy
+      url: https://www-dev.greenpeace.org/italy
+    - name: develop-japan
+      url: https://www-dev.greenpeace.org/japan
+    - name: develop-jctest
+      url: https://www-dev.greenpeace.org/jctest
+    - name: develop-korea
+      url: https://www-dev.greenpeace.org/korea
+    - name: develop-luxembourg
+      url: https://www-dev.greenpeace.org/luxembourg
+    - name: develop-malaysia
+      url: https://www-dev.greenpeace.org/malaysia
+    - name: develop-mena
+      url: https://www-dev.greenpeace.org/mena
+    - name: develop-mexico
+      url: https://www-dev.greenpeace.org/mexico
+    - name: develop-netherlands
+      url: https://www-dev.greenpeace.org/nl
+    - name: develop-new-zealand
+      url: https://www-dev.greenpeace.org/aotearoa
+    - name: develop-nikosdev
+      url: https://www-dev.greenpeace.org/nikosdev
+    - name: develop-norway
+      url: https://www-dev.greenpeace.org/norway
+    - name: develop-peru
+      url: https://www-dev.greenpeace.org/peru
+    - name: develop-philippines
+      url: https://www-dev.greenpeace.org/philippines
+    - name: develop-pieterdev
+      url: https://www-dev.greenpeace.org/pieterdev
+    - name: develop-poland
+      url: https://www-dev.greenpeace.org/poland
+    - name: develop-romania
+      url: https://www-dev.greenpeace.org/romania
+    - name: develop-sagardev
+      url: https://www-dev.greenpeace.org/sagardev
+    - name: develop-slovakia
+      url: https://www-dev.greenpeace.org/slovakia
+    - name: develop-slovenia
+      url: https://www-dev.greenpeace.org/slovenia
+    - name: develop-southeastasia
+      url: https://www-dev.greenpeace.org/southeastasia
+    - name: develop-storytelling
+      url: https://www-dev.greenpeace.org/storytelling
+    - name: develop-sweden
+      url: https://www-dev.greenpeace.org/sweden
+    - name: develop-switzerland
+      url: https://www-dev.greenpeace.ch/
+    - name: develop-taiwan
+      url: https://www-dev.greenpeace.org/taiwan
+    - name: develop-test-atlas
+      url: https://www-dev.greenpeace.org/test-atlas
+    - name: develop-test-deimos
+      url: https://www-dev.greenpeace.org/test-deimos
+    - name: develop-test-iocaste
+      url: https://www-dev.greenpeace.org/test-iocaste
+    - name: develop-test-janus
+      url: https://www-dev.greenpeace.org/test-janus
+    - name: develop-test-jupiter
+      url: https://www-dev.greenpeace.org/test-jupiter
+    - name: develop-test-leda
+      url: https://www-dev.greenpeace.org/test-leda
+    - name: develop-test-mars
+      url: https://www-dev.greenpeace.org/test-mars
+    - name: develop-test-neptune
+      url: https://www-dev.greenpeace.org/test-neptune
+    - name: develop-test-nix
+      url: https://www-dev.greenpeace.org/test-nix
+    - name: develop-test-oberon
+      url: https://www-dev.greenpeace.org/test-oberon
+    - name: develop-test-pandora
+      url: https://www-dev.greenpeace.org/test-pandora
+    - name: develop-test-phobos
+      url: https://www-dev.greenpeace.org/test-phobos
+    - name: develop-test-phoebe
+      url: https://www-dev.greenpeace.org/test-phoebe
+    - name: develop-test-pluto
+      url: https://www-dev.greenpeace.org/test-pluto
+    - name: develop-test-proteus
+      url: https://www-dev.greenpeace.org/test-proteus
+    - name: develop-test-rhea
+      url: https://www-dev.greenpeace.org/test-rhea
+    - name: develop-test-saturn
+      url: https://www-dev.greenpeace.org/test-saturn
+    - name: develop-test-sinope
+      url: https://www-dev.greenpeace.org/test-sinope
+    - name: develop-test-tavros
+      url: https://www-dev.greenpeace.org/test-tavros
+    - name: develop-test-telesto
+      url: https://www-dev.greenpeace.org/test-telesto
+    - name: develop-test-titan
+      url: https://www-dev.greenpeace.org/test-titan
+    - name: develop-test-umbriel
+      url: https://www-dev.greenpeace.org/test-umbriel
+    - name: develop-test-uranus
+      url: https://www-dev.greenpeace.org/test-uranus
+    - name: develop-test-venus
+      url: https://www-dev.greenpeace.org/test-venus
+    - name: develop-thailand
+      url: https://www-dev.greenpeace.org/thailand
+    - name: develop-training
+      url: https://www-dev.greenpeace.org/training
+    - name: develop-turkey
+      url: https://www-dev.greenpeace.org/turkey
+    - name: develop-ummah
+      url: https://www-dev.greenpeace.org/ummah
