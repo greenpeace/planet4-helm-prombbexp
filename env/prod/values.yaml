@@ -1,1 +1,215 @@
 ---
+serviceMonitor:
+  defaults:
+    additionalMetricsRelabels: {}
+    interval: 30s
+    labels:
+      release: prometheus-stack
+    module: http_2xx
+    scrapeTimeout: 30s
+  enabled: true
+  targets:
+    - name: africa-release
+      url: https://www-stage.greenpeace.org/africa
+    - name: argentina-release
+      url: https://www-stage.greenpeace.org/argentina
+    - name: belgium-release
+      url: https://www-stage.greenpeace.org/belgium
+    - name: brasil-release
+      url: https://www-stage.greenpeace.org/brasil
+    - name: bulgaria-release
+      url: https://www-stage.greenpeace.org/bulgaria
+    - name: canada-release
+      url: https://www-stage.greenpeace.org/canada
+    - name: chile-release
+      url: https://www-stage.greenpeace.org/chile
+    - name: cidev-release
+      url: https://www-stage.greenpeace.org/cidev
+    - name: colombia-release
+      url: https://www-stage.greenpeace.org/colombia
+    - name: cool-technologies-release
+      url: https://stage.cooltech.p4.greenpeace.org/
+    - name: croatia-release
+      url: https://www-stage.greenpeace.org/croatia
+    - name: czech-republic-release
+      url: https://www-stage.greenpeace.org/czech
+    - name: denmark-release
+      url: https://www-stage.greenpeace.org/denmark
+    - name: eastasia-release
+      url: https://www-stage.greenpeace.org/eastasia
+    - name: eu-unit-release
+      url: https://www-stage.greenpeace.org/eu-unit
+    - name: finland-release
+      url: https://www-stage.greenpeace.org/finland
+    - name: flibble-release
+      url: https://www-stage.greenpeace.org/flibble
+    - name: greece-release
+      url: https://www-stage.greenpeace.org/greece
+    - name: greenland-release
+      url: https://www-stage.greenpeace.org/greenland
+    - name: handbook-release
+      url: https://www-stage.greenpeace.org/handbook
+    - name: hongkong-release
+      url: https://www-stage.greenpeace.org/hongkong
+    - name: hungary-release
+      url: https://www-stage.greenpeace.org/hungary
+    - name: india-release
+      url: https://www-stage.greenpeace.org/india
+    - name: indonesia-release
+      url: https://www-stage.greenpeace.org/indonesia
+    - name: international-release
+      url: https://www-stage.greenpeace.org/international
+    - name: israel-release
+      url: https://www-stage.greenpeace.org/israel
+    - name: italy-release
+      url: https://www-stage.greenpeace.org/italy
+    - name: japan-release
+      url: https://www-stage.greenpeace.org/japan
+    - name: jctest-release
+      url: https://www-stage.greenpeace.org/jctest
+    - name: korea-release
+      url: https://www-stage.greenpeace.org/korea
+    - name: luxembourg-release
+      url: https://www-stage.greenpeace.org/luxembourg
+    - name: malaysia-release
+      url: https://www-stage.greenpeace.org/malaysia
+    - name: mena-release
+      url: https://www-stage.greenpeace.org/mena
+    - name: mexico-release
+      url: https://www-stage.greenpeace.org/mexico
+    - name: netherlands-release
+      url: https://www-stage.greenpeace.org/nl
+    - name: new-zealand-release
+      url: https://www-stage.greenpeace.org/aotearoa
+    - name: norway-release
+      url: https://www-stage.greenpeace.org/norway
+    - name: peru-release
+      url: https://www-stage.greenpeace.org/peru
+    - name: philippines-release
+      url: https://www-stage.greenpeace.org/philippines
+    - name: poland-release
+      url: https://www-stage.greenpeace.org/poland
+    - name: romania-release
+      url: https://www-stage.greenpeace.org/romania
+    - name: slovakia-release
+      url: https://www-stage.greenpeace.org/slovakia
+    - name: slovenia-release
+      url: https://www-stage.greenpeace.org/slovenia
+    - name: southeastasia-release
+      url: https://www-stage.greenpeace.org/southeastasia
+    - name: storytelling-release
+      url: https://www-stage.greenpeace.org/storytelling
+    - name: sweden-release
+      url: https://www-stage.greenpeace.org/sweden
+    - name: switzerland-release
+      url: https://www-stage.greenpeace.ch/
+    - name: taiwan-release
+      url: https://www-stage.greenpeace.org/taiwan
+    - name: thailand-release
+      url: https://www-stage.greenpeace.org/thailand
+    - name: turkey-release
+      url: https://www-stage.greenpeace.org/turkey
+    - name: ummah-release
+      url: https://www-stage.greenpeace.org/ummah
+    - name: africa-master
+      url: https://www.greenpeace.org/africa
+    - name: argentina-master
+      url: https://www.greenpeace.org/argentina
+    - name: belgium-master
+      url: https://www.greenpeace.org/belgium
+    - name: brasil-master
+      url: https://www.greenpeace.org/brasil
+    - name: bulgaria-master
+      url: https://www.greenpeace.org/bulgaria
+    - name: canada-master
+      url: https://www.greenpeace.org/canada
+    - name: chile-master
+      url: https://www.greenpeace.org/chile
+    - name: cidev-master
+      url: https://www.greenpeace.org/cidev
+    - name: colombia-master
+      url: https://www.greenpeace.org/colombia
+    - name: cool-technologies-master
+      url: https://cooltechnologies.org/
+    - name: croatia-master
+      url: https://www.greenpeace.org/croatia
+    - name: czech-republic-master
+      url: https://www.greenpeace.org/czech
+    - name: denmark-master
+      url: https://www.greenpeace.org/denmark
+    - name: eastasia-master
+      url: https://www.greenpeace.org/eastasia
+    - name: eu-unit-master
+      url: https://www.greenpeace.org/eu-unit
+    - name: finland-master
+      url: https://www.greenpeace.org/finland
+    - name: flibble-master
+      url: https://www.greenpeace.org/flibble
+    - name: greece-master
+      url: https://www.greenpeace.org/greece
+    - name: greenland-master
+      url: https://www.greenpeace.org/greenland
+    - name: handbook-master
+      url: https://planet4.greenpeace.org/
+    - name: hongkong-master
+      url: https://www.greenpeace.org/hongkong
+    - name: hungary-master
+      url: https://www.greenpeace.org/hungary
+    - name: india-master
+      url: https://www.greenpeace.org/india
+    - name: indonesia-master
+      url: https://www.greenpeace.org/indonesia
+    - name: international-master
+      url: https://www.greenpeace.org/international
+    - name: israel-master
+      url: https://www.greenpeace.org/israel
+    - name: italy-master
+      url: https://www.greenpeace.org/italy
+    - name: japan-master
+      url: https://www.greenpeace.org/japan
+    - name: jctest-master
+      url: https://www.greenpeace.org/jctest
+    - name: korea-master
+      url: https://www.greenpeace.org/korea
+    - name: luxembourg-master
+      url: https://www.greenpeace.org/luxembourg
+    - name: malaysia-master
+      url: https://www.greenpeace.org/malaysia
+    - name: mena-master
+      url: https://www.greenpeace.org/mena
+    - name: mexico-master
+      url: https://www.greenpeace.org/mexico
+    - name: netherlands-master
+      url: https://www.greenpeace.org/nl
+    - name: new-zealand-master
+      url: https://www.greenpeace.org/aotearoa
+    - name: norway-master
+      url: https://www.greenpeace.org/norway
+    - name: peru-master
+      url: https://www.greenpeace.org/peru
+    - name: philippines-master
+      url: https://www.greenpeace.org/philippines
+    - name: poland-master
+      url: https://www.greenpeace.org/poland
+    - name: romania-master
+      url: https://www.greenpeace.org/romania
+    - name: slovakia-master
+      url: https://www.greenpeace.org/slovakia
+    - name: slovenia-master
+      url: https://www.greenpeace.org/slovenia
+    - name: southeastasia-master
+      url: https://www.greenpeace.org/southeastasia
+    - name: storytelling-master
+      url: https://storytelling.greenpeace.org/
+    - name: sweden-master
+      url: https://www.greenpeace.org/sweden
+    - name: switzerland-master
+      url: https://www.greenpeace.ch/
+    - name: taiwan-master
+      url: https://www.greenpeace.org/taiwan
+    - name: thailand-master
+      url: https://www.greenpeace.org/thailand
+    - name: turkey-master
+      url: https://www.greenpeace.org/turkey
+    - name: ummah-master
+      url: https://ummah4earth.org/

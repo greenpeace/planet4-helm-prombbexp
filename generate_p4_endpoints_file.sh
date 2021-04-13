@@ -15,7 +15,7 @@ do
       break
       ;;
     Production)
-      kube_env=$(kubectx p4-prod)
+      kube_env=$(kubectx p4prod)
       gcloud config set project planet4-production
       break
       ;;
@@ -67,7 +67,7 @@ if [ -z "$count" ]
 then count=100
 fi
 
-printf '\nChecking everything has restarted successfully \n'
+printf '\nGenerating output file \n'
 if [ -z "$nro" ]
 then
   if [[ $deployenv = development ]]; then

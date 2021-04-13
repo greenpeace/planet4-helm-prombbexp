@@ -52,7 +52,7 @@ ifndef CI
 	$(error Please commit and push, this is intended to be run in a CI environment)
 endif
 	gcloud config set project $(PROD_PROJECT)
-	gcloud container clusters get-credentials $(PROD_PROJECT) --zone $(PROD_ZONE) --project $(PROD_PROJECT)
+	gcloud container clusters get-credentials $(PROD_CLUSTER) --zone $(PROD_ZONE) --project $(PROD_PROJECT)
 	-kubectl label namespace $(NAMESPACE)
 	helm3 upgrade --install --wait $(RELEASE) \
 		--namespace=$(NAMESPACE) \
