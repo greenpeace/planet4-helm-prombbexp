@@ -48,19 +48,19 @@ else
 fi
 echo "Deployment Environment:   $deployenv"
 
-printf '\n If you just want to restart one NRO, enter the full name of the NRO'
+printf '\n If you just want to export one NRO, enter the full name of the NRO'
 printf '\n The full name is the CONTAINER_PREFIX without planet-4'
 printf '\n'
 read -rp "Enter NRO or deployment name here : " nro
-echo "Restarting this NRO : " "$nro"
+echo "Exporting this NRO : " "$nro"
 
 if [ -z "$nro" ]
 then
-  printf '\n If you want to start x number of deployments, enter the number here'
-  printf '\n otherwise ALL deployments per environment are restarted'
+  printf '\n If you want to export x number of deployments, enter the number here'
+  printf '\n otherwise ALL deployments per environment are exported'
   printf '\n'
-  read -rp "Enter the number of deployments you want to restart : " count
-  echo "Restarting this # of deployments : " "$count" "or ALL deployments"
+  read -rp "Enter the number of deployments you want to export : " count
+  echo "Exporting this # of deployments : " "$count" "or ALL deployments"
 fi
 
 if [ -z "$count" ]

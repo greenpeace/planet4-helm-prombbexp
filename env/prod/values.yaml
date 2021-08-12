@@ -43,12 +43,16 @@ serviceMonitor:
       url: https://www-stage.greenpeace.org/finland
     - name: flibble-release
       url: https://www-stage.greenpeace.org/flibble
+    - name: gcefca-release
+      url: https://www-stage.greenpeace.org/gcefca
     - name: greece-release
       url: https://www-stage.greenpeace.org/greece
     - name: greenland-release
       url: https://www-stage.greenpeace.org/greenland
     - name: handbook-release
       url: https://www-stage.greenpeace.org/handbook
+    - name: history-aotearoa-release
+      url: https://history-stage.greenpeace.org/aotearoa
     - name: hongkong-release
       url: https://www-stage.greenpeace.org/hongkong
     - name: hungary-release
@@ -145,12 +149,16 @@ serviceMonitor:
       url: https://www.greenpeace.org/finland
     - name: flibble-master
       url: https://www.greenpeace.org/flibble
+    - name: gcefca-master
+      url: https://gcef.ca/
     - name: greece-master
       url: https://www.greenpeace.org/greece
     - name: greenland-master
       url: https://www.greenpeace.org/greenland
     - name: handbook-master
       url: https://planet4.greenpeace.org/
+    - name: history-aotearoa-master
+      url: https://history.greenpeace.org/aotearoa
     - name: hongkong-master
       url: https://www.greenpeace.org/hongkong
     - name: hungary-master

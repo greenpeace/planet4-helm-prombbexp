@@ -47,6 +47,8 @@ serviceMonitor:
       url: https://www-dev.greenpeace.org/finland
     - name: develop-flibble
       url: https://www-dev.greenpeace.org/flibble
+    - name: develop-gcefca
+      url: https://www-dev.greenpeace.org/gcefca
     - name: develop-greece
       url: https://www-dev.greenpeace.org/greece
     - name: develop-greenland
@@ -55,6 +57,8 @@ serviceMonitor:
       url: https://www-dev.greenpeace.org/gutenberg
     - name: develop-handbook
       url: https://www-dev.greenpeace.org/handbook
+    - name: develop-history-aotearoa
+      url: https://history-dev.greenpeace.org/aotearoa
     - name: develop-hongkong
       url: https://www-dev.greenpeace.org/hongkong
     - name: develop-hungary
@@ -87,22 +91,16 @@ serviceMonitor:
       url: https://www-dev.greenpeace.org/nl
     - name: develop-new-zealand
       url: https://www-dev.greenpeace.org/aotearoa
-    - name: develop-nikosdev
-      url: https://www-dev.greenpeace.org/nikosdev
     - name: develop-norway
       url: https://www-dev.greenpeace.org/norway
     - name: develop-peru
       url: https://www-dev.greenpeace.org/peru
     - name: develop-philippines
       url: https://www-dev.greenpeace.org/philippines
-    - name: develop-pieterdev
-      url: https://www-dev.greenpeace.org/pieterdev
     - name: develop-poland
       url: https://www-dev.greenpeace.org/poland
     - name: develop-romania
       url: https://www-dev.greenpeace.org/romania
-    - name: develop-sagardev
-      url: https://www-dev.greenpeace.org/sagardev
     - name: develop-slovakia
       url: https://www-dev.greenpeace.org/slovakia
     - name: develop-slovenia
@@ -121,6 +119,8 @@ serviceMonitor:
       url: https://www-dev.greenpeace.org/test-atlas
     - name: develop-test-deimos
       url: https://www-dev.greenpeace.org/test-deimos
+    - name: develop-test-forms
+      url: https://www-dev.greenpeace.org/test-forms
     - name: develop-test-iocaste
       url: https://www-dev.greenpeace.org/test-iocaste
     - name: develop-test-janus
@@ -147,6 +147,8 @@ serviceMonitor:
       url: https://www-dev.greenpeace.org/test-pluto
     - name: develop-test-proteus
       url: https://www-dev.greenpeace.org/test-proteus
+    - name: develop-test-quizzes
+      url: https://www-dev.greenpeace.org/test-quizzes
     - name: develop-test-rhea
       url: https://www-dev.greenpeace.org/test-rhea
     - name: develop-test-saturn
