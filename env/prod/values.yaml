@@ -44,7 +44,7 @@ serviceMonitor:
     - name: flibble-release
       url: https://www-stage.greenpeace.org/flibble
     - name: gcefca-release
-      url: https://www-stage.greenpeace.org/gcefca
+      url: https://www-stage.greenpeace.org/gcefca/en/
     - name: greece-release
       url: https://www-stage.greenpeace.org/greece
     - name: greenland-release
