@@ -48,7 +48,7 @@ serviceMonitor:
     - name: develop-flibble
       url: https://www-dev.greenpeace.org/flibble
     - name: develop-gcefca
-      url: https://www-dev.greenpeace.org/gcefca
+      url: https://www-dev.greenpeace.org/gcefca/en/
     - name: develop-greece
       url: https://www-dev.greenpeace.org/greece
     - name: develop-greenland
