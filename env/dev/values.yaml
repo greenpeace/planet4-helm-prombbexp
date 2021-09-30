@@ -28,7 +28,7 @@ serviceMonitor:
     - name: develop-colombia
       url: https://www-dev.greenpeace.org/colombia
     - name: develop-cool-technologies
-      url: https://dev.cooltech.p4.greenpeace.org/
+      url: https://www-dev.cooltechnologies.org/
     - name: develop-croatia
       url: https://www-dev.greenpeace.org/croatia
     - name: develop-czech-republic
@@ -46,9 +46,9 @@ serviceMonitor:
     - name: develop-finland
       url: https://www-dev.greenpeace.org/finland
     - name: develop-flibble
-      url: https://www-dev.greenpeace.org/flibble
+      url: https://www-dev-nginx.greenpeace.org/flibble
     - name: develop-gcefca
-      url: https://www-dev.greenpeace.org/gcefca/en/
+      url: https://www-dev.gcef.ca/
     - name: develop-greece
       url: https://www-dev.greenpeace.org/greece
     - name: develop-greenland
@@ -56,7 +56,7 @@ serviceMonitor:
     - name: develop-gutenberg
       url: https://www-dev.greenpeace.org/gutenberg
     - name: develop-handbook
-      url: https://www-dev.greenpeace.org/handbook
+      url: https://planet4-dev.greenpeace.org/
     - name: develop-history-aotearoa
       url: https://history-dev.greenpeace.org/aotearoa
     - name: develop-hongkong
@@ -76,7 +76,7 @@ serviceMonitor:
     - name: develop-japan
       url: https://www-dev.greenpeace.org/japan
     - name: develop-jctest
-      url: https://www-dev.greenpeace.org/jctest
+      url: https://www-dev.jencub.club/jctest
     - name: develop-korea
       url: https://www-dev.greenpeace.org/korea
     - name: develop-luxembourg
@@ -108,7 +108,7 @@ serviceMonitor:
     - name: develop-southeastasia
       url: https://www-dev.greenpeace.org/southeastasia
     - name: develop-storytelling
-      url: https://www-dev.greenpeace.org/storytelling
+      url: https://storytelling-dev.greenpeace.org/
     - name: develop-sweden
       url: https://www-dev.greenpeace.org/sweden
     - name: develop-switzerland
