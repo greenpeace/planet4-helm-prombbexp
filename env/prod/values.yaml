@@ -44,13 +44,13 @@ serviceMonitor:
     - name: flibble-release
       url: https://www-stage.greenpeace.org/flibble
     - name: gcefca-release
-      url: https://www-stage.greenpeace.org/gcefca/en/
+      url: https://www-stage.gcef.ca/
     - name: greece-release
       url: https://www-stage.greenpeace.org/greece
     - name: greenland-release
       url: https://www-stage.greenpeace.org/greenland
     - name: handbook-release
-      url: https://www-stage.greenpeace.org/handbook
+      url: https://planet4-stage.greenpeace.org/
     - name: history-aotearoa-release
       url: https://history-stage.greenpeace.org/aotearoa
     - name: hongkong-release
@@ -70,7 +70,7 @@ serviceMonitor:
     - name: japan-release
       url: https://www-stage.greenpeace.org/japan
     - name: jctest-release
-      url: https://www-stage.greenpeace.org/jctest
+      url: https://www-stage.jencub.club/jctest
     - name: korea-release
       url: https://www-stage.greenpeace.org/korea
     - name: luxembourg-release
@@ -102,7 +102,7 @@ serviceMonitor:
     - name: southeastasia-release
       url: https://www-stage.greenpeace.org/southeastasia
     - name: storytelling-release
-      url: https://www-stage.greenpeace.org/storytelling
+      url: https://storytelling-stage.greenpeace.org/
     - name: sweden-release
       url: https://www-stage.greenpeace.org/sweden
     - name: switzerland-release
