@@ -45,8 +45,6 @@ serviceMonitor:
       url: https://www-dev.greenpeace.org/eu-unit
     - name: develop-finland
       url: https://www-dev.greenpeace.org/finland
-    - name: develop-flibble
-      url: https://www-dev-nginx.greenpeace.org/flibble
     - name: develop-gcefca
       url: https://www-dev.gcef.ca/
     - name: develop-greece
@@ -75,8 +73,6 @@ serviceMonitor:
       url: https://www-dev.greenpeace.org/italy
     - name: develop-japan
       url: https://www-dev.greenpeace.org/japan
-    - name: develop-jctest
-      url: https://www-dev.jencub.club/jctest
     - name: develop-korea
       url: https://www-dev.greenpeace.org/korea
     - name: develop-luxembourg
