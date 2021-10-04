@@ -41,8 +41,6 @@ serviceMonitor:
       url: https://www-stage.greenpeace.org/eu-unit
     - name: finland-release
       url: https://www-stage.greenpeace.org/finland
-    - name: flibble-release
-      url: https://www-stage.greenpeace.org/flibble
     - name: gcefca-release
       url: https://www-stage.gcef.ca/
     - name: greece-release
@@ -69,8 +67,6 @@ serviceMonitor:
       url: https://www-stage.greenpeace.org/italy
     - name: japan-release
       url: https://www-stage.greenpeace.org/japan
-    - name: jctest-release
-      url: https://www-stage.jencub.club/jctest
     - name: korea-release
       url: https://www-stage.greenpeace.org/korea
     - name: luxembourg-release
@@ -147,8 +143,6 @@ serviceMonitor:
       url: https://www.greenpeace.org/eu-unit
     - name: finland-master
       url: https://www.greenpeace.org/finland
-    - name: flibble-master
-      url: https://www.greenpeace.org/flibble
     - name: gcefca-master
       url: https://gcef.ca/
     - name: greece-master
@@ -175,8 +169,6 @@ serviceMonitor:
       url: https://www.greenpeace.org/italy
     - name: japan-master
       url: https://www.greenpeace.org/japan
-    - name: jctest-master
-      url: https://www.greenpeace.org/jctest
     - name: korea-master
       url: https://www.greenpeace.org/korea
     - name: luxembourg-master
