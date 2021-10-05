@@ -28,7 +28,7 @@ serviceMonitor:
     - name: colombia-release
       url: https://www-stage.greenpeace.org/colombia
     - name: cool-technologies-release
-      url: https://stage.cooltech.p4.greenpeace.org/
+      url: https://www-stage.cooltechnologies.org/
     - name: croatia-release
       url: https://www-stage.greenpeace.org/croatia
     - name: czech-republic-release
