@@ -15,7 +15,7 @@ do
       break
       ;;
     Production)
-      kube_env=$(kubectx p4prod)
+      kube_env=$(kubectx gke_planet4-production_us-central1-a_planet4-production)
       gcloud config set project planet4-production
       break
       ;;
