@@ -95,6 +95,8 @@ serviceMonitor:
       url: https://www-stage.greenpeace.org/slovakia
     - name: slovenia-release
       url: https://www-stage.greenpeace.org/slovenia
+    - name: southasia-release
+      url: https://www-stage.greenpeace.org/southasia
     - name: southeastasia-release
       url: https://www-stage.greenpeace.org/southeastasia
     - name: storytelling-release
@@ -110,7 +112,7 @@ serviceMonitor:
     - name: turkey-release
       url: https://www-stage.greenpeace.org/turkey
     - name: ummah-release
-      url: https://www-stage.greenpeace.org/ummah
+      url: https://www-stage.ummah4earth.org/
     - name: africa-master
       url: https://www.greenpeace.org/africa
     - name: argentina-master
@@ -197,6 +199,8 @@ serviceMonitor:
       url: https://www.greenpeace.org/slovakia
     - name: slovenia-master
       url: https://www.greenpeace.org/slovenia
+    - name: southasia-master
+      url: https://www.greenpeace.org/southasia
     - name: southeastasia-master
       url: https://www.greenpeace.org/southeastasia
     - name: storytelling-master

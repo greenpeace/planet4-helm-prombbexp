@@ -1,14 +1,3 @@
----
-serviceMonitor:
-  defaults:
-    additionalMetricsRelabels: {}
-    interval: 30s
-    labels:
-      release: prometheus-stack
-    module: http_2xx
-    scrapeTimeout: 30s
-  enabled: true
-  targets:
     - name: develop-africa
       url: https://www-dev.greenpeace.org/africa
     - name: develop-argentina
@@ -169,3 +158,107 @@ serviceMonitor:
       url: https://www-dev.greenpeace.org/turkey
     - name: develop-ummah
       url: https://www-dev.ummah4earth.org/
+    - name: africa-release
+      url: https://www-stage.greenpeace.org/africa
+    - name: argentina-release
+      url: https://www-stage.greenpeace.org/argentina
+    - name: belgium-release
+      url: https://www-stage.greenpeace.org/belgium
+    - name: brasil-release
+      url: https://www-stage.greenpeace.org/brasil
+    - name: bulgaria-release
+      url: https://www-stage.greenpeace.org/bulgaria
+    - name: canada-release
+      url: https://www-stage.greenpeace.org/canada
+    - name: chile-release
+      url: https://www-stage.greenpeace.org/chile
+    - name: cidev-release
+      url: https://www-stage.greenpeace.org/cidev
+    - name: colombia-release
+      url: https://www-stage.greenpeace.org/colombia
+    - name: cool-technologies-release
+      url: https://www-stage.cooltechnologies.org/
+    - name: croatia-release
+      url: https://www-stage.greenpeace.org/croatia
+    - name: czech-republic-release
+      url: https://www-stage.greenpeace.org/czech
+    - name: denmark-release
+      url: https://www-stage.greenpeace.org/denmark
+    - name: eastasia-release
+      url: https://www-stage.greenpeace.org/eastasia
+    - name: eu-unit-release
+      url: https://www-stage.greenpeace.org/eu-unit
+    - name: finland-release
+      url: https://www-stage.greenpeace.org/finland
+    - name: gcefca-release
+      url: https://www-stage.gcef.ca/
+    - name: greece-release
+      url: https://www-stage.greenpeace.org/greece
+    - name: greenland-release
+      url: https://www-stage.greenpeace.org/greenland
+    - name: handbook-release
+      url: https://planet4-stage.greenpeace.org/
+    - name: history-aotearoa-release
+      url: https://history-stage.greenpeace.org/aotearoa
+    - name: hongkong-release
+      url: https://www-stage.greenpeace.org/hongkong
+    - name: hungary-release
+      url: https://www-stage.greenpeace.org/hungary
+    - name: india-release
+      url: https://www-stage.greenpeace.org/india
+    - name: indonesia-release
+      url: https://www-stage.greenpeace.org/indonesia
+    - name: international-release
+      url: https://www-stage.greenpeace.org/international
+    - name: israel-release
+      url: https://www-stage.greenpeace.org/israel
+    - name: italy-release
+      url: https://www-stage.greenpeace.org/italy
+    - name: japan-release
+      url: https://www-stage.greenpeace.org/japan
+    - name: korea-release
+      url: https://www-stage.greenpeace.org/korea
+    - name: luxembourg-release
+      url: https://www-stage.greenpeace.org/luxembourg
+    - name: malaysia-release
+      url: https://www-stage.greenpeace.org/malaysia
+    - name: mena-release
+      url: https://www-stage.greenpeace.org/mena
+    - name: mexico-release
+      url: https://www-stage.greenpeace.org/mexico
+    - name: netherlands-release
+      url: https://www-stage.greenpeace.org/nl
+    - name: new-zealand-release
+      url: https://www-stage.greenpeace.org/aotearoa
+    - name: norway-release
+      url: https://www-stage.greenpeace.org/norway
+    - name: peru-release
+      url: https://www-stage.greenpeace.org/peru
+    - name: philippines-release
+      url: https://www-stage.greenpeace.org/philippines
+    - name: poland-release
+      url: https://www-stage.greenpeace.org/poland
+    - name: romania-release
+      url: https://www-stage.greenpeace.org/romania
+    - name: slovakia-release
+      url: https://www-stage.greenpeace.org/slovakia
+    - name: slovenia-release
+      url: https://www-stage.greenpeace.org/slovenia
+    - name: southasia-release
+      url: https://www-stage.greenpeace.org/southasia
+    - name: southeastasia-release
+      url: https://www-stage.greenpeace.org/southeastasia
+    - name: storytelling-release
+      url: https://storytelling-stage.greenpeace.org/
+    - name: sweden-release
+      url: https://www-stage.greenpeace.org/sweden
+    - name: switzerland-release
+      url: https://www-stage.greenpeace.ch/
+    - name: taiwan-release
+      url: https://www-stage.greenpeace.org/taiwan
+    - name: thailand-release
+      url: https://www-stage.greenpeace.org/thailand
+    - name: turkey-release
+      url: https://www-stage.greenpeace.org/turkey
+    - name: ummah-release
+      url: https://www-stage.ummah4earth.org/
